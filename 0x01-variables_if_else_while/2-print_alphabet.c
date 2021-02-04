@@ -7,8 +7,18 @@
 int main(void)
 {
 
-	for (int y = 'A'; y <= 'z'; y++)
-		putchar(tolower(y));
+	char x = 'a';
+
+	while (x <= 'z')
+	{
+
+		putchar(x);
+		x++;
+
+	}
+
+	putchar('\n');
+
 	return (0);
 
 }
