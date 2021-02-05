@@ -8,12 +8,12 @@
 int main(void)
 {
 
-	int i;
+	char x;
 
-	for (i = 122; i >= 97; i--)
+	for (x = 'z'; x >= 'a'; x--)
 	{
 
-		putchar('%c ', i);
+		putchar(x);
 
 	}
 
