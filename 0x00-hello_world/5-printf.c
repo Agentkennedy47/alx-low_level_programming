@@ -1,0 +1,14 @@
+#include <stdio.h>
+/**
+ * main - code block
+ * Description: To print a string using `printf` function
+ * Return: 0
+ */
+int main(void)
+{
+
+	printf("\"with proper grammar, but the outcome is a piece of art");
+
+	return (0);
+
+}
