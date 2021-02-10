@@ -2,6 +2,7 @@
 /**
  * main - code block entry
  * Description: To print the string "Holberton" as an output
+ *
  * Return: 0 is always a success
  */
 int main(void)
