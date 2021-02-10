@@ -7,8 +7,8 @@
 int main(void)
 {
 
-	char str = "Holberton";
-	int x;
+	char str[] = "Holberton";
+	unsigned int x;
 
 	for (x = 0; x < sizeof(str); x++)
 	{
