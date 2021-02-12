@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * main - code entry point
- *
+ * print_alphabet - code entry point
+ * Description: To print the alphabet in lowercase as an output
  * Return: 0 is always a success
  */
 void print_alphabet(void)
