@@ -2,28 +2,22 @@
 /**
  * _islower - code entry point
  * Description: To check if an alphabet is lowercase
- * Return: 1 if output is correct
- * Return: 0 otherwise
+ * @c: char type letter
+ * Return: 0 is always a success
  */
 int _islower(int c)
 {
 
-	int c;
 
-	if ( c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 
-		_putchar("'%c' is lowercase alphabet." c);
-
+		return (1);
 	}
 	else
 	{
 
-		_putchar("'%c' is not lowercase alphabet." c);
+		return (0);
 	}
-
-	_putchar('\n');
-
-	return (1);
 
 }
