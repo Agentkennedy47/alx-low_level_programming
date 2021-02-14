@@ -2,20 +2,27 @@
 /**
  * print_last_digit - code entry point
  * Description: To print the last digit of a number
- * @c: char type letter
+ * @n: int type number
  * Return: 0 is a success
  */
-int print_last_digit(int c)
+int print_last_digit(int n)
 {
 
-	c = c % 10;
+	int lastdigit;
 
-	if (c < 0)
+	if (n < 0)
 	{
 
-		c = c * -1;
-		_putchar (c % 10 + '0');
-		return (c % 10);
+		lastdigit = -1 * (n % 10);
+		_putchar(lastdigit + '0');
+		return (lastdigit);
+	}
+	else
+	{
+
+		lastdigit = n % 10;
+		_putchar(lastdigit + '0');
+		return (lastdigit);
 	}
 
 }
