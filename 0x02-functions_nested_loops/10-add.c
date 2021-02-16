@@ -2,7 +2,9 @@
 /**
  * add - code block entry point
  * Description: To add two integers
- * int: int type number
+ * @i: int type number
+ * @j: int type number
+ * @sum: int type number
  * Return: 0 is successful
  */
 int add(int, int)
@@ -15,5 +17,6 @@ int add(int, int)
 	sum = (i + j);
 
 	_putchar(sum + '0');
+	return (sum);
 
 }
