@@ -2,15 +2,13 @@
 /**
  * add - code block entry point
  * Description: To add two integers
- * @i: int type number
- * @j: int type number
+ * @i: number to be added
+ * @j: number to be added
  * Return: 0 is successful
  */
-int add(int, int)
+int add(int i, int j)
 {
 
-	int i;
-	int j;
 	int sum;
 
 	sum = (i + j);
