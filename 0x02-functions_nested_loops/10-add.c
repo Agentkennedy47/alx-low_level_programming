@@ -4,10 +4,9 @@
  * Description: To add two integers
  * @i: int type number
  * @j: int type number
- * @sum: int type number
  * Return: 0 is successful
  */
-int add(int, int)
+int add(int i, int j)
 {
 
 	int i;
