@@ -6,7 +6,7 @@
  * @j: int type number
  * Return: 0 is successful
  */
-int add(int i, int j)
+int add(int, int)
 {
 
 	int i;
