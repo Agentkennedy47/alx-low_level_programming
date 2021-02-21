@@ -1,23 +1,13 @@
 #include "holberton.h"
 /**
- * _isdigit - code block
- * Description: Function that checks for a digit
- * @c: char type letter
- * Return: 0 is success
+ *_isdigit - Return 1 if c is a digit.
+ *@c: Value
+ *Return: 1 if c is a value ,0 otherwise
  */
 int _isdigit(int c)
 {
-
-	if (c > 47 && c < 59)
-	{
-
+	if (c > 47 && c < 58)
 		return (1);
 
-	}
-	else
-	{
-
-		return (0);
-	}
-
+	return (0);
 }
