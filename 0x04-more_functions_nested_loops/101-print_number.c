@@ -9,9 +9,9 @@
 void print_number(int n)
 {
 
-	char c;
+	char c = '0';
 
-	for (c = 0; c >= n; c++)
+	if (n < 0)
 	{
 
 		if (n % 10 == 0)
