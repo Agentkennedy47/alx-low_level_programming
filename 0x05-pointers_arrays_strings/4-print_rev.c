@@ -9,22 +9,21 @@ void print_rev(char *s)
 {
 
 
-	int x, y, size = 0;
-	char rev[];
+	int size = 0;
 
-	while (*s[size] != '\0')
+	while (*s != '\0')
 	{
 
+		s++;
 		size++;
 	}
 
-	y = size - 1;
-
-	for (x = 0; x < size; x++)
+	while (size != 0)
 	{
 
-		rev[x] = *s[y];
-		y--;
+		size--;
+		s--;
+		_putchar(*s);
 
 	}
 
