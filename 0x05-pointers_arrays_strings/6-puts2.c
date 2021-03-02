@@ -10,7 +10,21 @@ void puts2(char *str)
 {
 
 
-	
+	int size = 0;
 
+	while (*str != '\0')
+	{
+
+		if ((size % 2) == 0)
+		{
+
+			_putchar(*str);
+		}
+
+		str++;
+		size++;
+	}
+
+	_putchar('\n');
 
 }
