@@ -111,12 +111,11 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		if ((p2 < 0) && (rs == 1))
 		{
 			if (p3 < 0)
-				return (0);
-			else
 			{
-				r[p3] = rs + '0';
-				p3--;
+				return (0);
 			}
+			r[p3] = rs + '0';
+			p3--;
 		}
 	}
 	else
