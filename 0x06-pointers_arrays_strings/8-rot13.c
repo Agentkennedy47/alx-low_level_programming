@@ -1,4 +1,4 @@
-#inlcude "holberton.h"
+#include "holberton.h"
 /**
  * *rot13 - code entry point
  * Description: Function that encodes a string using `rot13`
