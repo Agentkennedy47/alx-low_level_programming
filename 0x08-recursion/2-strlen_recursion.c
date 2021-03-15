@@ -4,18 +4,21 @@
  * Description: Function that returns the length of a string
  * @s: String to be printed
  *
+ * Return: The length of the string
  */
 int _strlen_recursion(char *s)
 {
 
 	int length = 0;
-	int i;
 
-	if (i = 0; i <= length; i++)
+
+	if (*s)
 	{
 
-		_strlen_recursion(length++);
-		_putchar(*s);
+		length += _strlen_recursion(s + 1);
+		length++;
 	}
+
+	return (length);
 
 }
