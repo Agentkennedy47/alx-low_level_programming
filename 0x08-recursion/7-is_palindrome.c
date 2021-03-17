@@ -34,7 +34,7 @@ int _pal_checker(char *left, char *right)
 
 		return (0);
 	}
-	else if (*left >= *right)
+	else if (left >= right)
 	{
 
 		return (1);
